@@ -1,0 +1,56 @@
+.customKeyboard {
+  border: 1px solid #ccc;
+  background: #fff;
+  box-shadow: 5px 5px 15px 0px #000;
+  width: 50em;
+  z-index: 100;
+  position:absolute;
+  font-size:18px;
+  padding:.25em .5em .5em;
+}
+.customKeyboard .drag {
+  font-family:Arial;
+  color:#000;
+  background:#fff;
+  font-weight:bold;
+  text-decoration:none;
+  font-weight:bold;
+  padding:.25em;
+  display:block;
+  cursor: move;
+}
+.customKeyboard .key {
+  color:#000;
+  background:#fff;
+  font-weight:bold;
+  text-decoration:none;
+  cursor: pointer;
+  text-align: center;
+  display:inline-block;
+  width:2.5em;
+  height:2.5em;
+  padding:.25em;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin:2px;
+  box-shadow: 2px 2px 4px 0px #ccc;
+  position:relative;
+}
+.customKeyboard .key:hover, .customKeyboard .key.hover {
+  background:#ddd;
+}
+.customKeyboard .key .preview {
+  font-size:200%;
+}
+.customKeyboard .key.compound {
+  background:#cef;
+}
+.customKeyboard .key .name {
+  position:absolute;
+  right:0;
+  bottom:0;
+  font-size:85%;
+  padding:.2em;
+  color:#777;
+  font-family:Arial;
+}
